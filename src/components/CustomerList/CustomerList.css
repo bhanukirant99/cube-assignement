@@ -1,0 +1,15 @@
+.customer-list {
+    overflow: scroll;
+}
+
+.customer-card {
+    cursor: pointer;
+    padding: 2rem;
+    padding-left: 2rem;
+}
+
+.customer-card.selected {
+    background-color: #e9e9e9;
+    padding: 1.7rem;
+    transition: 500ms;
+}
